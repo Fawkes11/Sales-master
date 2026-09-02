@@ -1,0 +1,323 @@
+/* ******************** */
+/*    SECTION FONTS     */
+/* ******************** */
+
+/* NOTE Add here the fonts that we'll use in the project */
+
+@font-face {
+  font-family: "sancoaleSoft-regular";
+  src: url("../build/fonts/sancoale/SancoaleSoftenedRegular.otf");
+}
+@font-face {
+  font-family: "sancoaleSoft-medium";
+  src: url("../build/fonts/sancoale/SancoaleSoftenedMedium.otf");
+}
+@font-face {
+  font-family: "sancoaleSoft-thin";
+  src: url("../build/fonts/sancoale/SancoaleSoftenedThin.otf");
+}
+@font-face {
+  font-family: "notoSans-medium";
+  src: url("../build/fonts/noto-sans/NotoSans-Medium.ttf");
+}
+@font-face {
+  font-family: "notoSans-regular";
+  src: url("../build/fonts/noto-sans/NotoSans-Medium.ttf");
+}
+
+/* ******************* */
+/*    SECTION ROOT     */
+/* ******************* */
+
+:root {
+
+  /* Sizes VW */
+  --px1: 0.052vw;
+  --px2: 0.104vw;
+  --px3: 0.156vw;
+  --px4: 0.208vw;
+  --px5: 0.26vw;
+  --px6: 0.313vw;
+  --px7: 0.365vw;
+  --px8: 0.417vw;
+  --px9: 0.469vw;
+  --px10: 0.521vw;
+  --px11: 0.573vw;
+  --px12: 0.625vw;
+  --px13: 0.677vw;
+  --px14: 0.729vw;
+  --px15: 0.781vw;
+  --px16: 0.833vw;
+  --px17: 0.885vw;
+  --px18: 0.937vw;
+  --px19: 0.99vw;
+  --px20: 1.042vw;
+  --px21: 1.094vw;
+  --px22: 1.146vw;
+  --px23: 1.198vw;
+  --px24: 1.25vw;
+  --px25: 1.302vw;
+  --px26: 1.354vw;
+  --px27: 1.406vw;
+  --px28: 1.458vw;
+  --px29: 1.51vw;
+  --px30: 1.563vw;
+  --px31: 1.615vw;
+  --px32: 1.667vw;
+  --px33: 1.719vw;
+  --px34: 1.771vw;
+  --px35: 1.823vw;
+  --px36: 1.875vw;
+  --px37: 1.927vw;
+  --px38: 1.979vw;
+  --px39: 2.031vw;
+  --px40: 2.083vw;
+  --px41: 2.135vw;
+  --px42: 2.188vw;
+  --px43: 2.24vw;
+  --px44: 2.292vw;
+  --px45: 2.344vw;
+  --px46: 2.396vw;
+  --px47: 2.448vw;
+  --px48: 2.5vw;
+  --px49: 2.552vw;
+  --px50: 2.604vw;
+  --px51: 2.656vw;
+  --px52: 2.708vw;
+  --px53: 2.76vw;
+  --px54: 2.813vw;
+  --px55: 2.865vw;
+  --px56: 2.917vw;
+  --px57: 2.969vw;
+  --px58: 3.021vw;
+  --px59: 3.073vw;
+  --px60: 3.125vw;
+  --px61: 3.177vw;
+  --px62: 3.229vw;
+  --px63: 3.281vw;
+  --px64: 3.333vw;
+  --px65: 3.385vw;
+  --px66: 3.438vw;
+  --px67: 3.49vw;
+  --px68: 3.542vw;
+  --px69: 3.594vw;
+  --px70: 3.646vw;
+  --px71: 3.698vw;
+  --px72: 3.75vw;
+  --px73: 3.802vw;
+  --px74: 3.854vw;
+  --px75: 3.906vw;
+  --px76: 3.958vw;
+  --px77: 4.01vw;
+  --px78: 4.063vw;
+  --px79: 4.115vw;
+  --px80: 4.167vw;
+  --px81: 4.219vw;
+  --px82: 4.271vw;
+  --px83: 4.323vw;
+  --px84: 4.375vw;
+  --px85: 4.427vw;
+  --px86: 4.479vw;
+  --px87: 4.531vw;
+  --px88: 4.583vw;
+  --px89: 4.635vw;
+  --px90: 4.688vw;
+  --px91: 4.74vw;
+  --px92: 4.792vw;
+  --px93: 4.844vw;
+  --px94: 4.896vw;
+  --px95: 4.948vw;
+  --px96: 5vw;
+  --px97: 5.052vw;
+  --px98: 5.104vw;
+  --px99: 5.156vw;
+  --px100: 5.208vw;
+  --px101: 5.26vw;
+  --px102: 5.313vw;
+  --px103: 5.365vw;
+  --px104: 5.417vw;
+  --px105: 5.469vw;
+  --px106: 5.521vw;
+  --px107: 5.573vw;
+  --px108: 5.625vw;
+  --px109: 5.677vw;
+  --px110: 5.729vw;
+  --px111: 5.781vw;
+  --px112: 5.833vw;
+  --px113: 5.885vw;
+  --px114: 5.938vw;
+  --px115: 5.99vw;
+  --px116: 6.042vw;
+  --px117: 6.094vw;
+  --px118: 6.146vw;
+  --px119: 6.198vw;
+  --px120: 6.25vw;
+  --px121: 6.302vw;
+  --px122: 6.354vw;
+  --px123: 6.406vw;
+  --px124: 6.458vw;
+  --px125: 6.51vw;
+  --px126: 6.563vw;
+  --px127: 6.615vw;
+  --px128: 6.667vw;
+  --px129: 6.719vw;
+  --px130: 6.771vw;
+  --px131: 6.823vw;
+  --px132: 6.875vw;
+  --px133: 6.927vw;
+  --px134: 6.979vw;
+  --px135: 7.031vw;
+  --px136: 7.083vw;
+  --px137: 7.135vw;
+  --px138: 7.188vw;
+  --px139: 7.24vw;
+  --px140: 7.292vw;
+  --px141: 7.344vw;
+  --px142: 7.396vw;
+  --px143: 7.448vw;
+  --px144: 7.5vw;
+  --px145: 7.552vw;
+  --px146: 7.604vw;
+  --px147: 7.656vw;
+  --px148: 7.708vw;
+  --px149: 7.76vw;
+  --px150: 7.813vw;
+
+  /* Colors */
+  
+  --color-light-pink: rgb(236, 225, 225);
+  --color-white: rgb(255,255,255);
+  --color-black: rgb(0,0,0);
+  --color-dark-magenta: rgb(120,0,150);
+  --color-dark-blue: rgb(5,4,208);
+  --color-fuchsia: rgb(254,0,130);
+  --color-light-salmon: rgb(213,174,174);
+}
+
+/* *********************************** */
+/*    SECTION RESET STYLES DEFAULT     */
+/* *********************************** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "sancoaleSoft";
+  overflow: hidden;
+  cursor: default;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+body button,
+body input {
+  font-family: "sancoaleSoft";
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+body input:focus {
+  outline: none;
+}
+body input:focus::placeholder {
+  color: transparent;
+}
+body li {
+  list-style-type: none;
+}
+
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+
+/* ******************************** */
+/*    SECTION UNIVERSAL CLASSES     */
+/* ******************************** */
+
+/* Position */
+.center-abs {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.center-abs-axis {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pos-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Pointer */
+.p-events {
+  pointer-events: none;
+}
+.c-pointer {
+  cursor: pointer;
+}
+
+/* Show / Hide elements */
+.d-none {
+  opacity: 0;
+  display: none;
+}
+.v-hidden {
+  visibility: hidden;
+}
+
+/* Background */
+.background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.background-map {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+/* Overlay */
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Fonts Class */
+.san-t {
+  font-family: "sancoaleSoft-thin";
+}
+.san-r {
+  font-family: "sancoaleSoft-regular";
+}
+.san-m {
+  font-family: "sancoaleSoft-medium";
+}
+
+/* NOTE Add here another fonts that we'll use in the project */
